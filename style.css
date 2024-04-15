@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+}
+.container {
+  width: 400px;
+  background-color: cornsilk;
+  padding: 30px;
+  border-radius: 20px;
+}
+.container form {
+  margin: 15px 0 25px;
+}
+.container form :where(input, button) {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-radius: 8px;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+.container form input {
+  border: 1px solid grey;
+}
+.container form button {
+  background-color: blueviolet;
+  color: #fff;
+}
+.qr-code {
+  border: 1px solid grey;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}
